@@ -1,0 +1,12 @@
+# DESCRIPTION: Verilator output: Timestamp data for --skip-identical.  Delete at will.
+C "multiplicador.v -cc -clk clk"
+S   5682264  2035882  1484904678 "/usr/bin/verilator_bin"
+S       862   949787  1499651974 "multiplicador.v"
+T      4298   949791  1499654792 "obj_dir/Vmultiplicador.cpp"
+T      2818   949790  1499654792 "obj_dir/Vmultiplicador.h"
+T      1667   949793  1499654792 "obj_dir/Vmultiplicador.mk"
+T       614   949789  1499654792 "obj_dir/Vmultiplicador__Syms.cpp"
+T      1012   949748  1499654792 "obj_dir/Vmultiplicador__Syms.h"
+T       274   949794  1499654792 "obj_dir/Vmultiplicador__ver.d"
+T         0        0  1499654792 "obj_dir/Vmultiplicador__verFiles.dat"
+T      1109   949792  1499654792 "obj_dir/Vmultiplicador_classes.mk"

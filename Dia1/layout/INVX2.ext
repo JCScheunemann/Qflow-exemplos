@@ -1,0 +1,24 @@
+timestamp 1499606893
+version 8.1
+tech scmos
+style TSMC0.35um(tsmc35)from:t11c
+scale 1000 1 5
+resistclasses 3700 2800 1018000 1018000 1 6000 6000 80 70 80 40
+port "Y" 3 40 24 56 376 m1
+port "gnd" 2 8 -12 24 104 m1
+port "gnd" 2 -8 -12 72 12 m1
+port "A" 1 8 116 24 148 m1
+port "vdd" 4 8 216 24 412 m1
+port "vdd" 4 -8 388 72 412 m1
+node "Y" 2 996.016 40 24 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5632 736 0 0 0 0 0 0
+node "gnd" 1 571.34 -8 -12 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3392 392 0 0 0 0 0 0
+equiv "gnd" "gnd"
+node "A" 0 106.736 8 116 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 512 96 0 0 0 0 0 0
+node "vdd" 1 793.66 -8 388 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4672 552 0 0 0 0 0 0
+equiv "vdd" "vdd"
+cap "gnd" "A" 54.984
+cap "Y" "A" 82.476
+cap "vdd" "Y" 467.364
+cap "gnd" "Y" 261.174
+subcap "gnd" -178.962
+subcap "vdd" -178.962

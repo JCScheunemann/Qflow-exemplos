@@ -1,0 +1,37 @@
+timestamp 1499606893
+version 8.1
+tech scmos
+style TSMC0.35um(tsmc35)from:t11c
+scale 1000 1 5
+resistclasses 3700 2800 1018000 1018000 1 6000 6000 80 70 80 40
+port "gnd" 3 8 -12 24 64 m1
+port "gnd" 3 -8 -12 104 12 m1
+port "gnd" 3 72 -12 88 64 m1
+port "A" 1 8 76 24 108 m1
+port "B" 2 72 172 88 204 m1
+port "Y" 4 40 24 56 64 m1
+port "Y" 4 60 216 76 376 m1
+port "Y" 4 40 216 76 232 m1
+port "Y" 4 44 24 56 232 m1
+port "Y" 4 40 132 56 148 m1
+port "vdd" 5 8 216 24 412 m1
+port "vdd" 5 -8 388 104 412 m1
+node "gnd" 1 720.272 72 -12 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4352 480 0 0 0 0 0 0
+equiv "gnd" "gnd"
+equiv "gnd" "gnd"
+node "A" 0 106.736 8 76 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 512 96 0 0 0 0 0 0
+node "B" 0 106.736 72 172 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 512 96 0 0 0 0 0 0
+node "Y" 2 1003.86 40 132 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5408 792 0 0 0 0 0 0
+equiv "Y" "Y"
+equiv "Y" "Y"
+equiv "Y" "Y"
+equiv "Y" "Y"
+node "vdd" 1 909.244 -8 388 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5440 616 0 0 0 0 0 0
+equiv "vdd" "vdd"
+cap "gnd" "A" 54.984
+cap "B" "Y" 96.222
+cap "A" "Y" 65.9808
+cap "vdd" "Y" 96.222
+cap "gnd" "Y" 261.174
+subcap "gnd" -236.754
+subcap "vdd" -236.754

@@ -1,0 +1,12 @@
+timestamp 1499606893
+version 8.1
+tech scmos
+style TSMC0.35um(tsmc35)from:t11c
+scale 1000 1 5
+resistclasses 3700 2800 1018000 1018000 1 6000 6000 80 70 80 40
+port "gnd" 1 -8 -12 40 12 m1
+port "vdd" 2 -8 388 40 412 m1
+node "gnd" 0 200.088 -8 -12 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1152 144 0 0 0 0 0 0
+node "vdd" 0 200.088 -8 388 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1152 144 0 0 0 0 0 0
+subcap "gnd" -121.17
+subcap "vdd" -121.17

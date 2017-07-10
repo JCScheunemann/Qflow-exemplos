@@ -1,0 +1,1 @@
+obj_dir/Vmultiplicador.cpp obj_dir/Vmultiplicador.h obj_dir/Vmultiplicador.mk obj_dir/Vmultiplicador__Syms.cpp obj_dir/Vmultiplicador__Syms.h obj_dir/Vmultiplicador__ver.d obj_dir/Vmultiplicador_classes.mk  : /usr/bin/verilator_bin   /usr/bin/verilator_bin multiplicador.v 

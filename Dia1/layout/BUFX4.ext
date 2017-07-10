@@ -1,0 +1,39 @@
+timestamp 1499606893
+version 8.1
+tech scmos
+style TSMC0.35um(tsmc35)from:t11c
+scale 1000 1 5
+resistclasses 3700 2800 1018000 1018000 1 6000 6000 80 70 80 40
+port "gnd" 2 40 -12 56 104 m1
+port "gnd" 2 -8 -12 136 12 m1
+port "gnd" 2 104 -12 120 104 m1
+port "A" 1 12 156 28 188 m1
+port "A" 1 8 172 28 188 m1
+port "Y" 3 72 24 88 104 m1
+port "Y" 3 80 92 92 236 m1
+port "Y" 3 72 216 88 376 m1
+port "Y" 3 72 132 92 148 m1
+port "vdd" 4 40 240 56 412 m1
+port "vdd" 4 -8 388 136 412 m1
+port "vdd" 4 104 216 120 412 m1
+node "gnd" 1 1058.18 104 -12 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6400 704 0 0 0 0 0 0
+equiv "gnd" "gnd"
+equiv "gnd" "gnd"
+node "A" 0 117.852 8 172 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 576 104 0 0 0 0 0 0
+equiv "A" "A"
+node "Y" 2 998.284 72 132 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5440 776 0 0 0 0 0 0
+equiv "Y" "Y"
+equiv "Y" "Y"
+equiv "Y" "Y"
+node "m1_8_24#" 2 1156.15 8 24 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6272 904 0 0 0 0 0 0
+node "vdd" 2 1436.12 104 216 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8576 976 0 0 0 0 0 0
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+cap "Y" "m1_8_24#" 291.415
+cap "A" "m1_8_24#" 119.001
+cap "Y" "gnd" 477.674
+cap "Y" "vdd" 835.07
+cap "m1_8_24#" "gnd" 316.158
+cap "vdd" "m1_8_24#" 460.491
+subcap "gnd" -294.546
+subcap "vdd" -294.546

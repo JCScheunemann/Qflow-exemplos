@@ -1,0 +1,91 @@
+timestamp 1499606893
+version 8.1
+tech scmos
+style TSMC0.35um(tsmc35)from:t11c
+scale 1000 1 5
+resistclasses 3700 2800 1018000 1018000 1 6000 6000 80 70 80 40
+port "gnd" 4 40 -12 56 104 m1
+port "gnd" 4 -8 -12 392 12 m1
+port "gnd" 4 328 -12 344 100 m1
+port "gnd" 4 216 -12 232 64 m1
+port "gnd" 4 148 -12 168 64 m1
+port "Q" 1 292 188 308 204 m1
+port "Q" 1 360 24 376 376 m1
+port "Q" 1 292 192 376 204 m1
+port "Q" 1 300 112 376 124 m1
+port "Q" 1 300 108 316 124 m1
+port "D" 3 52 168 68 184 m1
+port "D" 3 136 172 152 188 m1
+port "D" 3 52 172 152 184 m1
+port "CLK" 2 24 132 56 148 m1
+port "CLK" 2 268 244 296 260 m1
+port "CLK" 2 268 212 280 260 m1
+port "CLK" 2 232 212 280 224 m1
+port "CLK" 2 232 136 244 224 m1
+port "CLK" 2 220 132 236 148 m1
+port "CLK" 2 24 136 244 148 m1
+port "CLK" 2 108 76 120 148 m1
+port "CLK" 2 104 76 120 92 m1
+port "CLK" 2 84 136 100 152 m1
+port "vdd" 5 40 220 56 412 m1
+port "vdd" 5 -8 388 392 412 m1
+port "vdd" 5 328 216 344 412 m1
+port "vdd" 5 216 296 232 412 m1
+port "vdd" 5 152 296 168 412 m1
+node "m1_140_76#" 1 300.734 140 76 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1520 256 0 0 0 0 0 0
+node "gnd" 3 2282.41 148 -12 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14352 1416 0 0 0 0 0 0
+equiv "gnd" "gnd"
+equiv "gnd" "gnd"
+equiv "gnd" "gnd"
+equiv "gnd" "gnd"
+node "Q" 3 1320.65 300 108 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7296 1008 0 0 0 0 0 0
+equiv "Q" "Q"
+equiv "Q" "Q"
+equiv "Q" "Q"
+equiv "Q" "Q"
+node "D" 1 271.838 52 172 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1328 240 0 0 0 0 0 0
+equiv "D" "D"
+equiv "D" "D"
+node "CLK" 3 1120.1 84 136 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5712 944 0 0 0 0 0 0
+equiv "CLK" "CLK"
+equiv "CLK" "CLK"
+equiv "CLK" "CLK"
+equiv "CLK" "CLK"
+equiv "CLK" "CLK"
+equiv "CLK" "CLK"
+equiv "CLK" "CLK"
+equiv "CLK" "CLK"
+equiv "CLK" "CLK"
+node "m1_264_52#" 3 978.529 264 52 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4480 608 3712 496 0 0 0 0
+node "m1_140_268#" 1 460.81 140 268 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2416 376 0 0 0 0 0 0
+node "m1_72_52#" 3 1026.15 72 52 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4432 720 3712 496 0 0 0 0
+node "m1_8_24#" 4 1505.32 8 24 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7568 1136 1792 256 0 0 0 0
+node "vdd" 4 2927.71 152 296 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17984 1896 0 0 0 0 0 0
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+cap "m1_72_52#" "gnd" 127.151
+cap "m1_72_52#" "vdd" 168.388
+cap "m1_140_76#" "CLK" 32.9904
+cap "m1_140_268#" "vdd" 522.348
+cap "CLK" "D" 182.822
+cap "m1_8_24#" "D" 309.972
+cap "m1_8_24#" "CLK" 62.6577
+cap "m1_264_52#" "gnd" 82.476
+cap "m1_72_52#" "D" 56.176
+cap "m1_264_52#" "vdd" 82.476
+cap "m1_72_52#" "CLK" 100.686
+cap "m1_72_52#" "m1_8_24#" 432.816
+cap "m1_140_76#" "gnd" 329.904
+cap "m1_140_268#" "m1_8_24#" 49.4856
+cap "m1_72_52#" "m1_140_268#" 47.1291
+cap "gnd" "CLK" 23.5646
+cap "m1_8_24#" "gnd" 261.174
+cap "gnd" "Q" 305.849
+cap "vdd" "m1_8_24#" 512.038
+cap "vdd" "Q" 522.348
+cap "m1_264_52#" "CLK" 188.017
+cap "m1_264_52#" "Q" 184.196
+subcap "gnd" -756.882
+subcap "vdd" -756.882
